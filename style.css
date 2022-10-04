@@ -1,0 +1,118 @@
+/* question 1 */
+.Transition{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    transition: width 2s, height 2s;
+
+}
+
+.Transition:hover{
+    width: 200px;
+    height: 200px;
+}
+
+/* question 2 */
+.transform{
+    background-color: teal;
+    height: 150px;
+    width: 150px;
+
+}
+
+.translate{
+    
+    transform: translate(50px,100px);
+}
+
+.rotate{
+    transform: rotate(30deg);
+}
+
+.scale{
+    transform: scale(1,2);
+}
+
+.skew{
+    transform: skew(20deg);
+}
+
+/* question 3 */
+.container{
+    background-color: tan;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    /* gap: 10px;
+    row-gap: 10px;
+    column-gap: 10px; */
+}
+
+.grid-item{
+    background-color: aquamarine;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid-item2{
+    background-color: aquamarine;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.grid-item4{
+    background-color: aquamarine;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+/* question 4 */
+div p {
+    background-color: yellow;
+}
+
+/* div > p {
+    background-color: yellowgreen;
+} */
+
+/* div + p {
+    background-color: yellowgreen;
+} */
+
+/* div ~ p {
+    background-color: yellowgreen;
+} */
+
+/* question 5 */
+
+a{
+    background-color: yellow;
+    color: black;
+    font-size: 22px;
+    font-style: oblique;
+}
+
+/* a:link{
+    background-color: aquamarine;
+} */
+
+a:visited{
+    background-color: green;
+
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+a:active{
+    background-color: hotpink;
+}
+
